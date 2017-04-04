@@ -82,7 +82,7 @@ i.counter_name,
 i.instance_name,
 CASE 
 WHEN i.cntr_type = 272696576
-THEN s.counter_value - i.cntr_value
+THEN s.cntr_value - i.cntr_value
 WHEN i.cntr_type = 65792
 THEN s.cntr_value
 END AS cntr_value
